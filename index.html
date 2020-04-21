@@ -29,13 +29,19 @@
           真ん中の写真は2018年の誕生日で両わきの写真は去年の誕生日の写真やで！<br>
           来年はまた一緒に写真撮ろうな！ハッピーバースデー！
         </div>
-  
-        <div class="header-mail">
-          <label　for="mail">メール送れるよ！</label>
-          <br>
-          <textarea id="mail" name="mail" rows="3" cols="40" ></textarea>
-          <input type="button" value="送信">
-        </div>
+
+        <form
+          action="https://formspree.io/xbjavvww"
+          method="POST"
+          class="header-mail"
+        >
+          <label>
+            メール送れるよ！
+            <textarea name="message" rows="3" cols="40"></textarea>
+          </label>
+
+          <button type="submit">送信</button>
+        </form>
       </section>
       <footer>
         <div class="footer-all">

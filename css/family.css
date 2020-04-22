@@ -1,5 +1,4 @@
 
-
 .header-top {
   position: relative;
   width: auto;
@@ -80,11 +79,12 @@ body {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .bd-cake img  {
-width: 200px;
-height: 150px;
+width: 250px;
+height: 200px;
 margin-left: 80px;
 }
 
